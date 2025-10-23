@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>คำนวณเงินสำรองเลี้ยงชีพ</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>โปรแกรมคำนวณเงินสำรองเลี้ยงชีพ</h1>
+
+        <div class="input-group">
+            <label>เงินเดือน (Salary):</label>
+            <input type="number" id="salary" placeholder="เช่น 15000" />
+        </div>
+
+        <div class="input-group">
+            <label>ค่าคอมมิชชัน (Commission):</label>
+            <input type="number" id="commission" placeholder="เช่น 2000" />
+        </div>
+
+        <button onclick="calculateProvidentFund()">คำนวณ</button>
+
+        <div id="result" class="result-box"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
