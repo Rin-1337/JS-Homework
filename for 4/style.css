@@ -1,0 +1,16 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+    padding: 20px;
+    background: #f0f8ff;
+}
+
+input, button {
+    font-size: 16px;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Homework For Loop</h1>
+    <!-- Ex.1 -->
+    <div class="question">
+        <p>1. รับอาร์เรย์ตัวเลขแล้วคืนค่าอาร์เรย์ใหม่ที่มีแค่เลขคู่</p>
+        <input type="text" id="arrayInput" placeholder="1, 2, 3, ,4 ,5">
+        <button onclick="getEvenNumbers()">Checked</button>
+        <div class="result" id="evenResult"></div>
+    </div>
+
+    <!-- Ex.2 -->
+    <div class="question">
+        <p>2. เขียนฟังก์ชั่นที่รับจำนวนเต็มบวก N แล้วคืนค่าผลรวมของเลข 1 ถึง N</p>
+        <input type="number" id="sumInput" placeholder="เช่น 5">
+        <button onclick="sumUpToN()">คำนวณ</button>
+        <div class="result" id="sumResult"></div>
+    </div>
+
+    <!-- Ex.3 -->
+     <div class="question">
+        <p>3. เขียนฟังก์ชั่น Factorial(n) โดยใช้ For Loop</p>
+        <input type="number" id="factorialInput" placeholder="เช่น 5">
+        <button onclick="calculateFactorial()">คำนวณ</button>
+        <div class="result" id="factorialResult"></div>
+     </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

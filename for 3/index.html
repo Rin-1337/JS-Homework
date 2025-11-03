@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>คำนวณรวมค่าใช้จ่าย</h1>
+        <form id="expenseForm">
+            <label for="expenseInput">กรุณาใส่ตัวเลขค่าใช้จ่าย :</label>
+            <input type="number" id="expenseInput" name="expenseInput" placeholder="ใส่ค่าใช้จ่าย" required>
+            <button type="submit">เพิ่มค่าใช้จ่าย</button>
+        </form>
+
+        <h2>รวมค่าใช้จ่ายทั้งหมด : <span id="totalExpense">0</span> บาท</h2>
+        <h3>รายการค่าใช้จ่าย</h3>
+        <ul id="expenseList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

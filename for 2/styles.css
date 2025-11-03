@@ -1,0 +1,36 @@
+body {
+    font-family: "Prompt", sans-serif;
+    background-color: #fff8f2;
+    text-align: center;
+    color: #6b2020;
+}
+
+.container {
+    width: 450px;
+    margin: 50px auto;
+    padding: 25px;
+    border: 3px solid #ffc96b;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+button {
+    background-color: #ffcc70;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffb347;
+}
+
+#output {
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.6;
+}
